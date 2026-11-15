@@ -1,0 +1,16 @@
+{
+  "name": "nova-chatbot",
+  "version": "1.0.0",
+  "description": "Nova — a personal AI chatbot with its own web chat interface, powered by Claude.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0"
+  }
+}
