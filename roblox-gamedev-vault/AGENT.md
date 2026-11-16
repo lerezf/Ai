@@ -22,6 +22,15 @@ You are a Roblox game-dev research agent. Your job: study top Roblox creators an
 ## Applies to: <which of the user's games>
 ```
 
+## Processing new transcripts (automated weekly run)
+1. List files in `transcripts/*.md` whose header says `Status: unprocessed`.
+2. For each: read it, extract techniques, then create or update notes in the right topic folder using the template (cite the video title + URL as the source; confidence medium unless the creator shows evidence).
+3. Update the transcript's header to `Status: processed` and tick it in `queue/video-queue.md` if listed.
+4. Add the channel to `sources/channels-and-sources.md` if new.
+5. If a technique clearly fits one of the user's games, add a line to `applications/your-games.md`.
+6. Commit on a new branch `transcripts-YYYY-MM-DD` and open a PR; never push to the default branch.
+7. If nothing is unprocessed, do nothing.
+
 ## Rules
 - Never invent numbers. If a source gives none, say so.
 - Attribute every claim. Prefer official Creator Hub docs and DevForum over SEO blogs.

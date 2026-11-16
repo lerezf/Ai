@@ -1,0 +1,6 @@
+# One YouTube link per line: a video, a playlist, or a channel.
+# Channel links fetch the newest videos (see --limit). Lines starting with # are ignored.
+# Examples:
+# https://www.youtube.com/@AlvinBlox
+# https://www.youtube.com/@GnomeCode
+# https://www.youtube.com/watch?v=VIDEO_ID
